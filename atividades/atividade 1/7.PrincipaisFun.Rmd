@@ -10,11 +10,12 @@ head(esoph)
 tail(esoph)
 #10 linhas
 head(esoph, n=10)
+tail(esoph, n=10)
 ```
 Dimensões
 ```{r}
 dim(esoph)
-dim(esoph)[1]
+dim(esoph)[2]
 ```
 Comprimento
 ```{r}
@@ -37,5 +38,6 @@ Escolher Arquivo
 ```{r}
 x = file.choose()
 x
-```
+
+class(x)```
 
