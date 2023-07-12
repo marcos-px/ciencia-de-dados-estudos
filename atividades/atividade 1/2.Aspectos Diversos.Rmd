@@ -5,7 +5,7 @@ Aspectos Diversos
 Diretório de Trabalho
 ```{r}
 getwd()
-setwd("c:\\dados")
+setwd("../dados") #muda o local dos dados.
 ```
 Tipo do objeto
 ```{r}
